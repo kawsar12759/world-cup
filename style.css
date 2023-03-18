@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    
+    border: 1px solid red;
+}
+main{
+    margin: 4vh 9vw;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #161616;
+    padding: 2vh 6vw 0px 7vw;
+    border-radius: 30px;
+    height: fit-content;
+    max-width: 82vw;
+
+}
+
+.banner-items{
+
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 1vw;
+    justify-content: center;
+
+
+}
+
+.banner-title{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #FFFFFF;
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.banner-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.live-btn{
+    background-color: #DD0000;
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+    height: 56px;
+    width: 187px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+.banner-image{
+    margin-bottom: 0px;
+    display: flex;
+    align-items: end;
+    border: 1px solid gray;
+    height: 1005;
+}
+
+.banner-image img{
+    height: 600px;
+    width: 380px;
+    border: 1px solid red;
+}
+
+.second-section{
+    border: 1px solid blue;
+    width: 100%;
+    display: flex;
+    margin-top: 18vh;
+    margin-bottom: 15vh;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #161616;
+    height: 312px;
+    min-width: 312px;
+    border-radius: 10px;
+    margin-right: 24px;
+
+}
+
+.inactive-btn{
+    background-color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    color: #161616;
+    height: 64px;
+    width: 252px;
+    border-radius: 10px;
+    border: none;
+}
+
+.active-btn{
+    background-color: #DD0000;
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFFFFF;
+    height: 64px;
+    width: 252px;
+    border-radius: 10px;
+    border: none;
+}
+
+.inact_a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: #161616;
+}
+
+.act_a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+
+.blogs{
+    border: 1px solid pink;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-between;
+    row-gap: 4vh;
+    width: 100%;
+    align-items: center;
+    justify-items: center;
+}
+
+.blog{
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 16vw;
+    height: 362px;
+}
+
+.blog img{
+    margin-bottom: 20px;
+}
+
+.transfer-btn{
+    width: 100px;
+    height: 32px;
+    border: 1px solid #161616;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #161616;
+    font-weight: 500;
+}
+
+.blog-title{
+    font-weight: 600;
+    font-size: 18px;
+    color: #161616;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.blog-icons{
+    display: flex;
+    align-items: center;
+}
+
+
+.fa-clock{
+    color: rgba(22, 22, 22, 0.7);
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.fa-message{
+    color: rgba(22, 22, 22, 0.7);
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.icon-des{
+    color: rgba(22, 22, 22, 0.7);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+footer{
+    background-color: #161616;
+    width: 100%;
+  padding: 130px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.footer-title{
+    margin-top: 0px;
+    font-size: 40px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+hr{
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 30px;
+}
+.footer-menu{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+    width: 65%;
+    color:#B9B9B9;
+    font-size: 16px;
+    font-weight: 500;
+}
