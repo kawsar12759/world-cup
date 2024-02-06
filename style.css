@@ -271,12 +271,14 @@ Upcoming Match Section
 
 .flags {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     width: 100%;
 }
 
 .flags img {
     width: 35%;
+    height: 70px;
 }
 
 .flags p {
@@ -298,6 +300,7 @@ Upcoming Match Section
     font-size: 16px;
     font-weight: 400;
     color: #4D4D4D;
+    margin-bottom: 0;
 }
 
 /* -----------------------------
